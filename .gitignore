@@ -1,29 +1,28 @@
-#Android generated
-bin
-gen
+#ignore file
+#
+#
 
-#Eclipse
-.project
-.classpath
-.settings
-
-#IntelliJ IDEA
-.idea
-*.iml
-*.ipr
-*.iws
-
-#Maven
-target
-release.properties
-pom.xml.*
-
-website/_site
-
-#Ant
-build.xml
-local.properties
-proguard.cfg
-
-#OSX
+# osx n0ize
 .DS_Store
+profile
+
+#windows n0ize
+*~
+Thumbs.db
+
+# old skool
+.svn
+
+#other
+build/
+bin/
+gen/
+local.properties
+.settings/
+.project
+*.classpath
+
+#IntelliJ
+out/
+.idea/
+*.iml
