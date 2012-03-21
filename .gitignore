@@ -5,6 +5,24 @@
 # osx n0ize
 .DS_Store
 profile
+=======
+#Android generated
+bin
+gen
+lint.xml
+
+#Eclipse
+.project
+.classpath
+.settings
+.checkstyle
+
+#IntelliJ IDEA
+.idea
+*.iml
+*.ipr
+*.iws
+classes
 
 #windows n0ize
 *~
@@ -26,3 +44,7 @@ local.properties
 out/
 .idea/
 *.iml
+=======
+#Other
+.DS_Store
+tmp
