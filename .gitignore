@@ -23,6 +23,7 @@ lint.xml
 *.ipr
 *.iws
 classes
+gen-external-apklibs
 
 #windows n0ize
 *~
