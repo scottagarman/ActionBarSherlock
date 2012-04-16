@@ -5,7 +5,7 @@
 # osx n0ize
 .DS_Store
 profile
-=======
+
 #Android generated
 bin
 gen
@@ -41,11 +41,18 @@ local.properties
 .project
 *.classpath
 
+#Ant
+build.xml
+ant.properties
+local.properties
+proguard.cfg
+proguard-project.txt
+
 #IntelliJ
 out/
 .idea/
 *.iml
-=======
+
 #Other
 .DS_Store
 tmp
